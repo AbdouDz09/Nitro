@@ -13,5 +13,5 @@ Bot().then(bot => {
     require('./functions/loadCommands').load()
     require('./util')
     require('./functions/specialHelp')
-    bot.login(config.token)
+    
 }).catch(err => console.log(err));
